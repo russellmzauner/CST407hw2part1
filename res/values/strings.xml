@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">My Preference</string>
+    <string name="orientation_portrait">I feel so tall!</string>
+    <string name="orientation_landscape">The world looks flat</string>
+    <string name="orientation_text">Plain text</string>
+    
+
+</resources>
