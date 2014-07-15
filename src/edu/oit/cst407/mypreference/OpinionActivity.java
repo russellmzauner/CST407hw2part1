@@ -21,7 +21,7 @@ public class OpinionActivity extends Activity{
 		TextView orientationMessage = (TextView)findViewById(R.id.orientation_message);
 		
 		
-		if (this.getResources().getConfiguration().orientation == 1){
+	if (this.getResources().getConfiguration().orientation == 1){
 			orientationMessage.setText(this.getString(R.string.orientation_portrait));
 			}
 		else {
@@ -39,7 +39,7 @@ public class OpinionActivity extends Activity{
 	
 	
 	
-	
+	/*
 	@Override
 	public void onConfigurationChanged(Configuration newConfig){
 		
@@ -59,5 +59,5 @@ public class OpinionActivity extends Activity{
 		else if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT){
 			orientationMessage.setText(this.getString(R.string.orientation_portrait));
 			}
-	} 
+	} */
 }
